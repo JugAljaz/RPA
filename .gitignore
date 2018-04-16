@@ -3,3 +3,6 @@
 ################################################################################
 
 /VajaMVC/.vs
+/VajaMVC/packages
+/VajaMVC/VajaMVC/bin
+/VajaMVC/VajaMVC/obj/Debug
