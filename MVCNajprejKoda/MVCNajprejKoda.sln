@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCNajprejKoda", "MVCNajprejKoda\MVCNajprejKoda.csproj", "{42770613-3095-4965-A3E0-C627CB3F5A51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42770613-3095-4965-A3E0-C627CB3F5A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42770613-3095-4965-A3E0-C627CB3F5A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42770613-3095-4965-A3E0-C627CB3F5A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42770613-3095-4965-A3E0-C627CB3F5A51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4E5C9A9-9D4C-49FC-AE33-38DC60475AE8}
+	EndGlobalSection
+EndGlobal
