@@ -103,7 +103,8 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.ThumbNailPhoto)
+            @*@Html.DisplayFor(model => model.ThumbNailPhoto)*@
+            <img src="@Url.Action("Show","Products", new {id=Model.ProductID})"/>
         </dd>
 
         <dt>
