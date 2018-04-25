@@ -91,6 +91,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="images\mops-bk-2018-koledar.jpg" />
+    <Content Include="images\vinyl.png" />
     <Content Include="Prva.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
