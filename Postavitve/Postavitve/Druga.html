@@ -12,12 +12,65 @@
             <div class="col-md-6">
                 <h2>Tablist</h2>
                 <ul class="nav nav-tab" role="tablist">
-
+                    <li class="active">
+                        <a href="#tab-prvi" role="tab" data-toggle="tab">Prvi</a>
+                    </li>
+                    <li>
+                        <a href="#tab-drugi" role="tab" data-toggle="tab">Drugi</a>
+                    </li>
+                    <li>
+                        <a href="#tab-tretji" role="tab" data-toggle="tab">Tretji</a>
+                    </li>
                 </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane fade in" id="tab-prvi">
+                        <h2>Prvi</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus egestas accumsan. Ut vestibulum fringilla purus eget mollis. Vestibulum volutpat augue mollis, faucibus ex sed, aliquet est. Nullam ornare quam eu nunc euismod, non mollis nisi ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean commodo in purus a vulputate. In at ex maximus, fringilla lorem porta, ultricies lorem. Donec varius varius vestibulum. Duis sed purus fermentum, semper leo at, ullamcorper ligula. Fusce eu risus diam. Cras in nibh ac risus elementum varius id eu ante. Sed ac mauris at lorem pharetra dictum. Donec ut eleifend dolor. Praesent finibus vel tellus ullamcorper ornare.
+                    </div>
+                    <div class="tab-pane fade" id="tab-drugi">
+                        <h2>Drugi</h2>
+                        Suspendisse dapibus rhoncus pretium. Pellentesque fermentum arcu est. Vestibulum ut eros ac eros tristique maximus. Phasellus ex mi, vestibulum vitae neque et, ullamcorper tincidunt metus. Nulla fermentum mollis pharetra. Nullam id enim consequat, sollicitudin risus ut, blandit elit. Etiam porta sapien ac sem vehicula dignissim. Nunc luctus felis ut felis vehicula ultrices. Ut a justo non odio dignissim pulvinar. Suspendisse sed ultricies nunc. Suspendisse velit ante, aliquet a odio interdum, tempus faucibus justo. Sed diam diam, gravida vel turpis et, sollicitudin cursus dolor.
+                    </div> 
+                    <div class="tab-pane fade" id="tab-tretji">
+                        <h2>Tretji</h2>
+                        Vivamus tempor tortor vitae justo venenatis pharetra. Nam commodo est turpis, dictum semper quam aliquam ut. Aliquam fermentum et tortor quis congue. Aliquam vitae ultrices est. Praesent volutpat enim eu aliquam luctus. Sed gravida placerat venenatis. Nam tincidunt, dui vel cursus malesuada, lorem ante vestibulum elit, eu sollicitudin lectus turpis suscipit arcu. Donec rutrum malesuada vehicula. Aenean dignissim suscipit iaculis.
+                    </div>
+                </div>
             </div>
             <!--scrollspy-->
             <div class="col-md-6">
                 <h2>Scrollspy</h2>
+                <!--navigacija-->
+                <nav class="nav navbar-default navbar-static" role="navigation" id="navbar-spy">
+                    <div class="collapse navbar-collapse" >
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#scroll-prvi">Prvi</a>
+                            </li>
+                            <li>
+                                <a href="#scroll-drugi">Drugi</a>
+                            </li>
+                            <li>
+                                <a href="#scroll-tretji">Tretji</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--vsebina-->
+                <div data-target="#navbar-spy" data-spy="scroll" style="height:300px; overflow-y:scroll; position:relative">
+                    <div id="scroll-prvi">
+                        <h2>Prvi</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo maximus felis, vel pulvinar metus sollicitudin dictum. Donec et nisi volutpat elit mattis condimentum. Curabitur lacinia semper ante, efficitur pulvinar diam vestibulum ac. In in purus id ex rutrum hendrerit. Vivamus commodo faucibus ultricies. Donec ultrices leo in dictum mattis. Curabitur varius, dui non laoreet bibendum, metus ante malesuada velit, imperdiet suscipit nunc felis mattis nunc. Aliquam sed enim vitae tortor viverra volutpat ac in odio. Phasellus aliquam eu felis id pharetra.
+                    </div>
+                    <div id="scroll-drugi">
+                        <h2>Drugi</h2>
+                        Pellentesque sit amet aliquam nunc. Proin at erat consectetur, pharetra diam a, vulputate turpis. Sed a pellentesque leo, a aliquam dui. Fusce nibh libero, vestibulum eu turpis at, scelerisque pellentesque sapien. Nunc ultricies turpis sit amet odio dictum tincidunt. Pellentesque finibus mauris arcu, a venenatis est volutpat in. Pellentesque id tortor justo.
+                    </div>
+                    <div id="scroll-tretji">
+                        <h2>Tretji</h2>
+                        Morbi ornare est non nisl aliquam, sed tempor est consectetur. Aliquam ornare convallis luctus. Proin hendrerit, nulla efficitur tempus elementum, velit sem tempor orci, ac pellentesque sapien nunc sit amet nibh. Maecenas ac mattis mi. Cras ultrices diam purus, quis sollicitudin massa facilisis ullamcorper. Curabitur elit metus, iaculis sit amet lectus id, laoreet accumsan dui. Nunc sit amet elit in nisl dictum finibus at non dui. Curabitur sagittis, orci maximus vestibulum placerat, dolor metus consectetur nisl, sit amet auctor erat augue a sapien. Nullam at sagittis dui, et sollicitudin leo. Sed malesuada nunc diam, eu luctus lacus luctus et. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
