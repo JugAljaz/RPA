@@ -95,3 +95,7 @@ D:\RPA\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csproj.CoreCompileInputs.cache
 D:\RPA\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csproj.CopyComplete
 D:\RPA\Prodajalna\Prodajalna\obj\Debug\Prodajalna.dll
 D:\RPA\Prodajalna\Prodajalna\obj\Debug\Prodajalna.pdb
+D:\RPA\Prodajalna\Prodajalna\bin\EntityFramework.dll
+D:\RPA\Prodajalna\Prodajalna\bin\EntityFramework.SqlServer.dll
+D:\RPA\Prodajalna\Prodajalna\bin\EntityFramework.xml
+D:\RPA\Prodajalna\Prodajalna\bin\EntityFramework.SqlServer.xml

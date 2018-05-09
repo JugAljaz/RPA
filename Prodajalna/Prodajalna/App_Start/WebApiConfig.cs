@@ -26,4 +26,4 @@ namespace Prodajalna
             config.Formatters.Remove(config.Formatters.XmlFormatter);
         }
     }
-Products}
+}
