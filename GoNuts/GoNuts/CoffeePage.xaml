@@ -15,7 +15,7 @@
             <RowDefinition/>
         </Gird.RowDefinitions>
         <Image HorizontalAlignment="Left"  Margin="10" Source="Assets/white-logo.png" Width="200" Height="100"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Roast" VerticalAligment="Left" Margin"0,0,0,20"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Roast" VerticalAligment="Left" Margin="0,0,0,20"/>
         <Button Grid.Row="3" Grid.Column="1" Margin="20,0,0,20" Content="MenuFlyout">
             <Button.Flyout>
             <MenuFlyout Placement="Bottom">
@@ -27,7 +27,7 @@
             </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button Grid.Row="3" Grid.Column="1" Margin="20,0,0,20" Content="MenuFlyout">
+        <Button Grid.Row="3" Grid.Column="2" Margin="20,0,0,20" Content="MenuFlyout">
             <Button.Flyout>
                 <MenuFlyout Placement="Bottom">
                     <MenuFlyoutItem Text="Sweetener"/>
@@ -37,7 +37,7 @@
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button Grid.Row="3" Grid.Column="1" Margin="20,0,0,20" Content="MenuFlyout">
+        <Button Grid.Row="3" Grid.Column="3" Margin="20,0,0,20" Content="MenuFlyout">
             <Button.Flyout>
                 <MenuFlyout Placement="Bottom">
                     <MenuFlyoutItem Text="Dodatki"/>
