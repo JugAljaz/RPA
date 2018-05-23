@@ -1,0 +1,17 @@
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\GoNuts.csprojResolveAssemblyReference.cache
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\App.g.i.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\App.g.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\CoffeePage.g.i.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\CoffeePage.g.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\DonutPage.g.i.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\DonutPage.g.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\MainPage.g.i.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\MainPage.g.cs
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\App.xaml
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\CoffeePage.xaml
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\DonutPage.xaml
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\MainPage.xaml
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\App.xbf
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\CoffeePage.xbf
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\DonutPage.xbf
+D:\RPA\GoNuts\GoNuts\obj\ARM\Debug\MainPage.xbf
