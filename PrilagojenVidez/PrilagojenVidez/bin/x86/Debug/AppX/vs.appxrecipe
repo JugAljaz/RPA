@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\RPA\PrilagojenVidez\PrilagojenVidez\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-23T10:09:36.437</Modified>
+      <Modified>2018-05-23T10:32:17.112</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\RPA\PrilagojenVidez\PrilagojenVidez\bin\x86\Debug\PrilagojenVidez.exe">
       <PackagePath>entrypoint\PrilagojenVidez.exe</PackagePath>
-      <Modified>2018-05-23T10:09:32.519</Modified>
+      <Modified>2018-05-23T10:32:16.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\student\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA\PrilagojenVidez\PrilagojenVidez\bin\x86\Debug\PrilagojenVidez.xr.xml">
       <PackagePath>PrilagojenVidez.xr.xml</PackagePath>
-      <Modified>2018-05-23T10:09:32.130</Modified>
+      <Modified>2018-05-23T10:30:22.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="D:\RPA\PrilagojenVidez\PrilagojenVidez\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-23T10:09:35.581</Modified>
+      <Modified>2018-05-23T10:32:16.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA\PrilagojenVidez\PrilagojenVidez\bin\x86\Debug\Core\PrilagojenVidez.exe">
       <PackagePath>PrilagojenVidez.exe</PackagePath>
-      <Modified>2018-05-23T10:09:36.426</Modified>
+      <Modified>2018-05-23T10:32:17.107</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

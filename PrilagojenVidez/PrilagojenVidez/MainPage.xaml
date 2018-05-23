@@ -20,11 +20,12 @@
                                 <SolidColorBrush Color="Red"/>
                             </Setter.Value>
                         </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="18"></Setter>
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="Tablica">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="500"/>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="grdOkno.(Panel.Background)">
@@ -32,6 +33,7 @@
                                 <SolidColorBrush Color="Green"/>
                             </Setter.Value>
                         </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="36"></Setter>
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="PC">
@@ -44,10 +46,11 @@
                                 <SolidColorBrush Color="Blue"/>
                             </Setter.Value>
                         </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="72"></Setter>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <TextBlock FontSize="18" Name="txtNapis">Trenutno stanje.</TextBlock>
+        <TextBlock Name="txtNapis">Trenutno stanje.</TextBlock>
     </Grid>
 </Page>

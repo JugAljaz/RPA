@@ -8,7 +8,50 @@
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Name="grdOkno">
-        <TextBlock x:ConnectionId='2' FontSize="18" Name="txtNapis">Trenutno stanje.</TextBlock>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='2' x:Name="SirineZaslona">
+                <VisualState x:ConnectionId='3' x:Name="Telefon">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="10"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grdOkno.(Panel.Background)">
+                            <Setter.Value>
+                                <SolidColorBrush Color="Red"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="18"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="Tablica">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grdOkno.(Panel.Background)">
+                            <Setter.Value>
+                                <SolidColorBrush Color="Green"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="36"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='5' x:Name="PC">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="grdOkno.(Panel.Background)">
+                            <Setter.Value>
+                                <SolidColorBrush Color="Blue"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtNapis.(TextBlock.FontSize)" Value="72"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <TextBlock x:ConnectionId='6' Name="txtNapis">Trenutno stanje.</TextBlock>
     </Grid>
 </Page>
 
